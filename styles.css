@@ -1,0 +1,130 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #7282B3 0%, #0A0C11 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+.skills {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+.main_img {
+    flex-shrink: 0;
+}
+
+.left_div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    max-width: 40vw;
+    min-width: 40vw;
+}
+
+.right_div {
+    flex: 1;
+    background: #59617F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 60vw;
+
+}
+
+.headings {
+    margin-left: -40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    flex-shrink: 0;
+    font-family: Lato;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+h3 {
+    width: 1060px;
+    margin: -20px 0 40px 0;
+    font-family: Lato;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+
+.logo_cls {
+    flex-shrink: 0;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    max-width: max-content;
+    padding: 5px 30px 0 30px;
+}
+
+.logo_cls img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.skills {
+    padding-left: 40px;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: linear-gradient(180deg, #6788DE 0%, rgba(102.70, 135.97, 222.06, 0) 100%); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px;
+    border: 2px #01000a solid; 
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 10vw;
+    min-height: 30px;
+}
+
+.right_down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
