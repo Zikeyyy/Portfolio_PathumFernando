@@ -49,6 +49,7 @@ body {
     margin-left: -40px;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
 }
 
 h1 {
@@ -95,6 +96,16 @@ h3 {
     flex-shrink: 0;
 }
 
+
+.logo_cls img:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
 .skills {
     padding-left: 40px;
     max-width: 60vw;
@@ -120,6 +131,13 @@ h3 {
     line-height: normal;
     max-width: 10vw;
     min-height: 30px;
+}
+
+.btn:hover{
+    transform: scale(1.1) translateY(-5px);
+    background-color: #424a64; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: all 0.5s ease-in-out;
 }
 
 .right_down {
@@ -169,6 +187,14 @@ h2 {
     padding: 30px;
 }
 
+.p4:hover, .p2:hover, .p3:hover, .p1:hover {
+    transform: scale(1.1) translateY(-5px);
+    background-color: #424a64; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: all 0.5s ease-in-out;
+  }
+  
+
 .p1 img,
 .p2 img,
 .p3 img,
@@ -176,6 +202,16 @@ h2 {
     max-width: 30vw;
     padding-left: 5vw;
     padding-bottom: 20px;
+}
+
+.p1 img:hover,
+.p2 img:hover,
+.p3 img:hover,
+.p4 img:hover {
+    transform: scale(1.1) translateY(-5px);
+    background-color: #424a64; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: all 0.5s ease-in-out;
 }
 
 .text {
