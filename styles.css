@@ -81,6 +81,12 @@ h3 {
     backdrop-filter: blur(10px);
 }
 
+h1:hover, h3:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
+  
+
 
 .logo_cls {
     flex-shrink: 0;
@@ -115,30 +121,7 @@ h3 {
     align-items: center;
 }
 
-.btn {
-    background: linear-gradient(180deg, #6788DE 0%, rgba(102.70, 135.97, 222.06, 0) 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px #01000a solid;
-    color: #FFF;
-    text-align: center;
-    font-family: Lato;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    max-width: 10vw;
-    min-height: 30px;
-}
 
-.btn:hover{
-    transform: scale(1.1) translateY(-5px);
-    background-color: #424a64; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
-    transition: all 0.5s ease-in-out;
-}
 
 .right_down {
     display: flex;
@@ -164,7 +147,7 @@ h2 {
     line-height: normal;
 }
 
-.down {
+.mid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -180,7 +163,6 @@ h2 {
     margin: 0 auto;
     justify-content: space-between;
     background-color: #59617F;
-    max-width: 40vw;
     min-width: 40vw;
     min-height: 80vh;
     margin: 30px;
@@ -248,3 +230,69 @@ h2 {
     font-size: .8;
     margin-top: 10px;
 }
+
+
+.btn2, .btn {
+    background-color: #424a64;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 10vw;
+    transition: all 0.2s ease-in-out;
+    margin: 20px 0 10px 0;
+  }
+
+  
+  .btn2:hover, .btn:hover {
+    background-color: #336DAF;
+  }
+  
+  .btn2:active {
+    transform: scale(0.95);
+  }
+  
+  
+  @media (min-width: 768px) {
+    body {
+      min-height: 100vh;
+      background: linear-gradient(180deg, #7282B3 0%, #0A0C11 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .cont {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-around;
+    }
+  
+    /* ... rest of your original CSS styles */
+  
+    @media (max-width: 767px) {
+      .cont {
+        flex-wrap: wrap;
+      }
+  
+      .left_div,
+      .right_div,
+      .p1,
+      .p2,
+      .p3,
+      .p4 {
+        min-width: 100%;
+        max-width: 100%;
+      }
+  
+      h1,
+      h3 {
+        font-size: 1rem; /* Adjust as needed */
+      }
+  
+      /* Adjust other styles for smaller screens as needed */
+    }
+  }
+  
