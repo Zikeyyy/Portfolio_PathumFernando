@@ -189,9 +189,7 @@ h2 {
     align-items: center;
 }
 
-.p1,
-.p2,
-.p3,
+
 .p4 {
     display: block;
     margin: 0 auto;
@@ -203,9 +201,7 @@ h2 {
     padding: 30px;
 }
 
-.p4:hover,
-.p2:hover,
-.p3:hover,
+
 .p1:hover {
     transform: scale(1.1) translateY(-5px);
     background-color: #424a64;
@@ -213,18 +209,13 @@ h2 {
     transition: all 0.5s ease-in-out;
 }
 
-.p1 img,
-.p2 img,
-.p3 img,
 .p4 img {
     max-width: 30vw;
     padding-left: 5vw;
     padding-bottom: 20px;
 }
 
-.p1 img:hover,
-.p2 img:hover,
-.p3 img:hover,
+
 .p4 img:hover {
     transform: scale(1.1) translateY(-5px);
     background-color: #424a64;
@@ -395,6 +386,12 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
     .cont {
         display: flex;
         justify-content: center;
@@ -437,6 +434,15 @@ textarea {
 
         font-size: 1rem;
         font-weight: 500;
+    }
+
+    .p4{
+        padding: 20px;
+        min-height: inherit;
+    }
+
+    .p4 img{
+        margin: 5px 2px 5px 0;
     }
 
     .skills {
