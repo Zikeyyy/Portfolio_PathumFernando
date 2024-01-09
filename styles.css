@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
 }
 
 .cont {
@@ -351,12 +352,12 @@ textarea {
 
 
 @media only screen and (max-width: 768px) {
-    
-    
-    body{
+
+
+    body {
         max-width: 100vw;
     }
-    
+
     .left_div {
         display: none;
     }
@@ -367,36 +368,37 @@ textarea {
         min-width: 100vw;
     }
 
-    .headings{
+    .headings {
         display: block;
         max-width: 90vw;
         margin: 10px;
     }
 
-    h1{
+    h1 {
         font-size: 2rem;
     }
 
-    h3{
+    h3 {
         font-size: 1.5rem;
+        font-weight: 500;
     }
 
-    .disc{
+    .disc {
         justify-content: flex-end;
     }
 
-    .mid{
+    .mid {
         display: block;
         margin: 10px;
         justify-content: center;
         align-items: center;
     }
 
-    .mid img{
+    .mid img {
         min-width: 70vw;
     }
 
-    .main_contact{
+    .main_contact {
         display: flex;
         flex-direction: column;
         margin: 20px;
@@ -405,8 +407,38 @@ textarea {
         align-items: center;
     }
 
-    form{
+    form {
         margin: 30px;
         max-width: 70vw;
+    }
+
+    .right_part_contact {
+        display: flex;
+        flex-direction: co;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: .8rem;
+    }
+
+    .social_logo_part {
+        display: inline-block;
+        background-color: #ccc;
+        max-width: 100vw;
+        padding: 5px 15px 5px 15px;
+        max-height: 100vh;
+    }
+
+    .text_part{
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: .9rem;
+        text-decoration: none;
+        min-width: 80vw;
+        margin-bottom: 30px 0 30px 0;
+    }
+
+    .down{
+        margin-left: 10px;
     }
 }
