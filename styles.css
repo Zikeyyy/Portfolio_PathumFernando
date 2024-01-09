@@ -10,6 +10,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .skills {
@@ -25,7 +26,8 @@ body {
 }
 
 .main_img {
-    flex-shrink: 0;
+    justify-content: end;
+    justify-items: end;
 }
 
 .left_div {
@@ -42,11 +44,12 @@ body {
     background: #59617F;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     max-width: 60vw;
-
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .headings {
-    margin-left: -40px;
+    margin-left: -60px;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
