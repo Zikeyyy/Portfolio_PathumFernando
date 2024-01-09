@@ -270,7 +270,10 @@ h2 {
       justify-content: space-around;
     }
   
-    /* ... rest of your original CSS styles */
+    /* Remove main image styles */
+    /* .main_img { ... } */
+  
+    /* ... rest of your original CSS styles (excluding those for main image) */
   
     @media (max-width: 767px) {
       .cont {
