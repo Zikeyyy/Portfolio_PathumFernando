@@ -351,17 +351,62 @@ textarea {
 
 
 @media only screen and (max-width: 768px) {
+    
+    
+    body{
+        max-width: 100vw;
+    }
+    
     .left_div {
         display: none;
     }
 
     .right_div {
         width: 100%;
+        display: flexbox;
         min-width: 100vw;
-        display: flex;
-        flex-direction: row;
+    }
+
+    .headings{
+        display: block;
+        max-width: 90vw;
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .disc{
+        justify-content: flex-end;
+    }
+
+    .mid{
+        display: block;
+        margin: 10px;
         justify-content: center;
         align-items: center;
-        overflow: visible;
+    }
+
+    .mid img{
+        min-width: 70vw;
+    }
+
+    .main_contact{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        max-width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        margin: 30px;
+        max-width: 70vw;
     }
 }
