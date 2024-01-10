@@ -450,7 +450,6 @@ textarea {
 
     h3 {
         font-family: Arial, Helvetica, sans-serif;
-
         font-size: 1rem;
         font-weight: 500;
     }
@@ -477,8 +476,10 @@ textarea {
     }
 
     .disc {
-        justify-content: flex-end;
+        justify-content: center;
         min-width: 80vw;
+        text-align: start;
+        align-items: center;
         font-weight: 400;
     }
 
