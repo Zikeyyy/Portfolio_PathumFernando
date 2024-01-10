@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     text-decoration: none;
-    margin-bottom: 0;
+    margin-bottom: -10px;
 }
 
 .cont {
