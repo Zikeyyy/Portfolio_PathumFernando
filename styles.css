@@ -32,6 +32,8 @@ body {
     min-height: 100vh;
     background: linear-gradient(180deg, #7282B3 0%, #1E1E1E 100%);
     display: flex;
+    padding: 0;
+    margin: 0;
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
@@ -92,7 +94,7 @@ body {
 h1 {
     flex-shrink: 0;
     font-family: Lato;
-    font-size: 5rem;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -105,7 +107,7 @@ h1 {
 
 h3 {
     width: 1060px;
-    margin: -20px 0 40px 0;
+    margin: 0px 0 40px 0;
     font-family: Lato;
     font-size: 2rem;
     font-style: normal;
@@ -117,6 +119,28 @@ h3 {
     -webkit-text-fill-color: transparent;
     backdrop-filter: blur(10px);
 }
+
+.headings h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid #424a64; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
+ }
+
+ /* The typing effect */
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+ }
+
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #424a64; }
+ }
+
 
 h1:hover,
 h3:hover {
@@ -420,7 +444,8 @@ textarea {
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        overflow-x: scroll;
     }
 
     h3 {
