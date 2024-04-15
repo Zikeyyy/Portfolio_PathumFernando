@@ -91,6 +91,18 @@ body {
     position: relative;
 }
 
+.githubLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Lato;
+    background-color: #424a64;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
 h1 {
     flex-shrink: 0;
     font-family: Lato;
